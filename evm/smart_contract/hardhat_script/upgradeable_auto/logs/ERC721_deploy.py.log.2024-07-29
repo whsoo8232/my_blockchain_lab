@@ -1,0 +1,11 @@
+[2024-07-29 11:29:23.125] [DEBUG   ] 
+[2024-07-29 11:29:23.666] [ERROR   ] None failed 1 
+ Error HH100: Network baseSepolia doesn't exist
+For more info go to https://hardhat.org/HH100 or run Hardhat with --show-stack-traces
+
+[2024-07-29 11:30:38.155] [DEBUG   ] 
+
+[2024-07-29 11:31:12.481] [DEBUG   ] Compiled 21 Solidity files successfully (evm target: paris).
+Deploying TestV1...
+TestV1 deployed address to: 0x9eD9dBDd506ffD9c2d9A93d679109433E5a0d799
+

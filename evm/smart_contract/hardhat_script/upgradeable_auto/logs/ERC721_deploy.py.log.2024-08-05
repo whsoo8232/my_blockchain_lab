@@ -1,0 +1,71 @@
+[2024-08-05 16:55:43.774] [DEBUG   ] 
+[2024-08-05 16:56:18.481] [DEBUG   ] Compiled 21 Solidity files successfully (evm target: paris).
+Deploying TestV1...
+TestV1 deployed address to: 0x5bbcD38C4113D4680aa8614ff2cDB90504DAe4B2
+Transaction hash: 0xf8cc5085c9418aacbc082741276bba2ffa23912f6d0a6688489870b185ddbbb5
+
+[2024-08-05 17:09:47.672] [DEBUG   ] 
+[2024-08-05 17:09:51.038] [ERROR   ] None failed 1 Compiled 21 Solidity files successfully (evm target: paris).
+Deploying TestV1...
+ 
+/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/util/jsonrpc.ts:47
+    throw new HardhatError(ERRORS.NETWORK.INVALID_JSON_RESPONSE, {
+          ^
+HardhatError: HH110: Invalid JSON-RPC response received: {"error":"UNAUTHORIZED","instance":"misty-necessary-dust","request-id":""}
+    at parseJsonResponse (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/util/jsonrpc.ts:47:11)
+    at HttpProvider._fetchJsonRpcResponse (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/core/providers/http.ts:220:31)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at HttpProvider.request (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/core/providers/http.ts:87:29)
+    at getChainId (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/upgrades-core/src/provider.ts:46:14)
+    at Function.forNetwork (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/upgrades-core/src/manifest.ts:116:21)
+    at Proxy.deployProxy (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/hardhat-upgrades/src/deploy-proxy.ts:43:22)
+    at main (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/scripts/deployv1.js:10:20)
+
+[2024-08-05 17:10:36.220] [DEBUG   ] 
+[2024-08-05 17:10:39.517] [ERROR   ] None failed 1 Compiled 21 Solidity files successfully (evm target: paris).
+Deploying TestV3...
+ 
+/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/util/jsonrpc.ts:47
+    throw new HardhatError(ERRORS.NETWORK.INVALID_JSON_RESPONSE, {
+          ^
+HardhatError: HH110: Invalid JSON-RPC response received: {"error":"UNAUTHORIZED","instance":"misty-necessary-dust","request-id":""}
+    at parseJsonResponse (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/util/jsonrpc.ts:47:11)
+    at HttpProvider._fetchJsonRpcResponse (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/core/providers/http.ts:220:31)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at HttpProvider.request (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/core/providers/http.ts:87:29)
+    at getChainId (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/upgrades-core/src/provider.ts:46:14)
+    at Function.forNetwork (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/upgrades-core/src/manifest.ts:116:21)
+    at Proxy.deployProxy (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/hardhat-upgrades/src/deploy-proxy.ts:43:22)
+    at main (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/scripts/deployv1.js:10:20)
+
+[2024-08-05 17:12:08.927] [DEBUG   ] 
+[2024-08-05 17:12:12.223] [ERROR   ] None failed 1 Compiled 21 Solidity files successfully (evm target: paris).
+Deploying TestV3...
+ 
+/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/util/jsonrpc.ts:47
+    throw new HardhatError(ERRORS.NETWORK.INVALID_JSON_RESPONSE, {
+          ^
+HardhatError: HH110: Invalid JSON-RPC response received: {"error":"UNAUTHORIZED","instance":"misty-necessary-dust","request-id":""}
+    at parseJsonResponse (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/util/jsonrpc.ts:47:11)
+    at HttpProvider._fetchJsonRpcResponse (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/core/providers/http.ts:220:31)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at HttpProvider.request (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/hardhat/src/internal/core/providers/http.ts:87:29)
+    at getChainId (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/upgrades-core/src/provider.ts:46:14)
+    at Function.forNetwork (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/upgrades-core/src/manifest.ts:116:21)
+    at Proxy.deployProxy (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/node_modules/@openzeppelin/hardhat-upgrades/src/deploy-proxy.ts:43:22)
+    at main (/home/whsoo8232/Projects/MY/Blockchain/Blockchain-EVM-SmartContract/ContractBase/Upgradeable/scripts/deployv1.js:10:20)
+
+[2024-08-05 17:14:27.902] [DEBUG   ] 
+[2024-08-05 17:15:09.393] [DEBUG   ] 
+
+[2024-08-05 17:15:42.401] [DEBUG   ] Compiled 21 Solidity files successfully (evm target: paris).
+Deploying TestV3...
+TestV3 deployed address to: 0x05b6fE7d498a5d42fA77fcC0ff0FF41e1e77654B
+Transaction hash: 0x7e4706e8c5adb16ae0ecfe9addaa936f813dd5435534cc7cd408641583a54dbc
+
+[2024-08-05 17:18:18.291] [DEBUG   ] 
+[2024-08-05 17:18:51.041] [DEBUG   ] Compiled 21 Solidity files successfully (evm target: paris).
+Deploying TestV3...
+TestV3 deployed address to: 0xf1Eb1927C5C7e336f9f127062cD939D55e5dA6d1
+Transaction hash: 0x0ef7e54f42d8a07548ce6b3de87687bc194420bc135a493e709ed1dcf61578a9
+
