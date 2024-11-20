@@ -1,0 +1,6 @@
+[2024-10-15 13:17:27.358] [DEBUG   ] 
+[2024-10-15 13:17:56.717] [DEBUG   ] Compiled 21 Solidity files successfully (evm target: paris).
+Deploying ACSNFT...
+ACSNFT deployed address to: 0xB518098bEdfb4438AA1B7492d347395F82D3C06d
+Transaction hash: 0x25652b38edd3b9b70b2f6361346986cac7d9b82851f2ace15bf7ad764af87576
+

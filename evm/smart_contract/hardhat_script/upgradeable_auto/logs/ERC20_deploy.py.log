@@ -1,5 +1,0 @@
-[2024-07-31 17:11:07.529] [DEBUG   ] 
-[2024-07-31 17:11:35.499] [DEBUG   ] Compiled 20 Solidity files successfully (evm target: paris).
-Deploying TestContractUpgrade...
-TestContractUpgrade deployed address to: 0xe021689864b1B78d067e627A7C844307997BF71a
-

@@ -1,0 +1,6 @@
+[2024-11-05 16:22:44.694] [DEBUG   ] 
+[2024-11-05 16:23:11.454] [DEBUG   ] Compiled 20 Solidity files successfully (evm target: paris).
+Deploying Artcoin...
+Artcoin deployed address to: 0x943f2A691cD479bfaF661aC0281dFf2a46C4ACe9
+Transaction hash: 0x9757c5755e1800adae65b1eae4011fd16de222d4aaf7725de1f5ab0d5f3324e6
+

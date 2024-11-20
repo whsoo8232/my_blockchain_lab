@@ -1,0 +1,18 @@
+[2024-10-15 13:12:10.920] [DEBUG   ] 
+[2024-10-15 13:12:12.668] [ERROR   ] ERC20_deploy.py failed 1 
+ ParserError: Expected '{' but got '-'
+  --> contracts/ACS-COIN.sol:11:13:
+   |
+11 | contract ACS-COIN is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, PausableUpgradeable, OwnableUpgradeable, ERC20PermitUpgradeable {
+   |             ^
+
+
+Error HH600: Compilation failed
+For more info go to https://hardhat.org/HH600 or run Hardhat with --show-stack-traces
+
+[2024-10-15 13:12:27.508] [DEBUG   ] 
+[2024-10-15 13:13:08.181] [DEBUG   ] Compiled 20 Solidity files successfully (evm target: paris).
+Deploying ACSCOIN...
+ACSCOIN deployed address to: 0x433602e22a8380ad0eDaD95345D1C4D06A4b3763
+Transaction hash: 0xc415ab1090bb53d2a64460f87ea3aa6b0c5175fd09f56de581f12a822c948613
+
